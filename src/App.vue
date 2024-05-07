@@ -8,12 +8,13 @@ import CameraControl from "@src/components/ThreeJsTest/CameraControl.vue";
 </script>
 
 <template>
+      <su7Module />
     <!-- <BaseDemo /> -->
     <!-- <DrawLine /> -->
-    <!--  <su7Module />-->
+
     <!--  <Axis />-->
-<!--    <Light />-->
-    <CameraControl />
+    <!--    <Light />-->
+    <!--    <CameraControl />-->
 </template>
 
 <style scoped>
