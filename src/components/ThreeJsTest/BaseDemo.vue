@@ -5,9 +5,7 @@ const scene = new Three.Scene(); // 场景
 const camera = new Three.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000) // 透视相机
 
 const material = new Three.MeshBasicMaterial({ color: 'pink', side: Three.DoubleSide }) // 材质
-const geometry = new Three.BoxGeometry(1, 1, 1); // 长方体
-
-const geometry2 = new Three.BoxGeometry(1, 1, 1); //BoxGeometry：长方体
+const geometry = new Three.BoxGeometry(1, 1, 1); //BoxGeometry：长方体
 const geometry3 = new Three.SphereGeometry(5);// SphereGeometry：球体
 const geometry4 = new Three.CylinderGeometry(5, 5, 10);// CylinderGeometry：圆柱
 const geometry5 = new Three.PlaneGeometry(10, 5);// PlaneGeometry：矩形平面
